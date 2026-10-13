@@ -19,7 +19,6 @@ import com.serviq.service.ServiceRecordService;
 
 @RestController
 @RequestMapping("/api/service-records")
-@CrossOrigin(origins = "http://localhost:5173")
 public class ServiceRecordController {
 
     private final ServiceRecordService serviceRecordService;

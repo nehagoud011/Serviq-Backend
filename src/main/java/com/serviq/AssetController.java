@@ -19,7 +19,6 @@ import com.serviq.service.AssetService;
 
 @RestController
 @RequestMapping("/api/assets")
-@CrossOrigin(origins = "http://localhost:5173")
 public class AssetController {
 
     private final AssetService assetService;
